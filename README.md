@@ -1,4 +1,3 @@
-
 # React animated letters
 
 An extremely simplified way to have letters animate, when entering the viewport. Right now it animates in the same way always, but I will add support for more, if it gets used by anyon!
@@ -7,9 +6,11 @@ This repo is tag-agnostic, it will take whatever tag you give it, and split the 
 
 ## Demo
 
-https://desperate.dk/
+![](https://github.com/FrederikNordahl/react-animated-letters/blob/main/example.gif)
 
+https://desperate.dk/
 (The headlines that animates in, is using this exact repo)
+
 ## Installation
 
 Install my-project with npm
