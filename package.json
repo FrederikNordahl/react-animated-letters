@@ -1,0 +1,30 @@
+{
+  "name": "react-animated-letters",
+  "version": "1.0.0",
+  "description": "A simple package for animating any text, when it enters the viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrederikNordahl/react-animated-letters.git"
+  },
+  "peerDependencies": {
+    "react": "14 - 18"
+  },
+  "keywords": [
+    "react",
+    "animated",
+    "letters",
+    "viewport",
+    "object",
+    "observe"
+  ],
+  "author": "Frederik Nordahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrederikNordahl/react-animated-letters/issues"
+  },
+  "homepage": "https://github.com/FrederikNordahl/react-animated-letters#readme"
+}
