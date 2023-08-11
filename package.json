@@ -2,16 +2,30 @@
   "name": "react-animated-letters",
   "version": "1.0.0",
   "description": "A simple package for animating any text, when it enters the viewport",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react",
+      "@babel/preset-env"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FrederikNordahl/react-animated-letters.git"
   },
-  "peerDependencies": {
-    "react": "14 - 18"
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
   },
   "keywords": [
     "react",
@@ -26,5 +40,9 @@
   "bugs": {
     "url": "https://github.com/FrederikNordahl/react-animated-letters/issues"
   },
-  "homepage": "https://github.com/FrederikNordahl/react-animated-letters#readme"
+  "homepage": "https://github.com/FrederikNordahl/react-animated-letters#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./styles.css";
 
-const AnimatedText = (props) => {
+function AnimatedText(props) {
   const { children } = props;
 
   const text = children.props.children;
@@ -74,6 +74,6 @@ const AnimatedText = (props) => {
       })}
     </Tag>
   );
-};
+}
 
 export default AnimatedText;
