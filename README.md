@@ -6,6 +6,8 @@ This repo is tag-agnostic, it will take whatever tag you give it, and split the 
 
 ## Demo
 
+![](https://github.com/FrederikNordahl/react-animated-letters/blob/main/example.gif)
+
 https://desperate.dk/
 
 (The headlines that animates in, is using this exact repo)
