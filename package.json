@@ -1,6 +1,6 @@
 {
   "name": "react-animated-letters",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple package for animating any text, when it enters the viewport",
   "main": "dist/index.js",
   "files": [
